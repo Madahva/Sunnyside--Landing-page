@@ -1,0 +1,45 @@
+.features div {
+  display: flex;
+  flex-direction: column;
+}
+
+.features__text {
+  text-align: center;
+  order: 2;
+  background-color: var(--white);
+  display: flex;
+  padding: 3rem 2rem;
+  flex-direction: column;
+}
+
+.features__text h2 {
+  color: var(--black);
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+}
+
+.features__text p {
+  color: var(--gray);
+  font-family: 'Barlow', sans-serif;
+}
+
+.features__text a{
+  text-decoration: none;
+}
+
+.features__image--egg {
+  background-image: url("../images/mobile/image-transform.jpg");
+  background-repeat: no-repeat;
+  height: 20rem;
+  background-size: cover;
+  background-position: center;
+  order: 1;
+}
+
+.features__image--cup {
+  background-image: url("../images/mobile/image-stand-out.jpg");
+  background-repeat: no-repeat;
+  height: 20rem;
+  background-size: cover;
+  background-position: center;
+}

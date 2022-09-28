@@ -1,5 +1,7 @@
 * {
   --white: #FEFEFE;
+  --black: hsl(212, 27%, 19%);
+  --gray: hsl(213, 9%, 39%);
 }
 
 body {
