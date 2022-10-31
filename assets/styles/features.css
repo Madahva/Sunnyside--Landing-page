@@ -23,8 +23,28 @@
   font-family: 'Barlow', sans-serif;
 }
 
-.features__text a{
+.features__text--links {
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.features__text a {
+  color: var(--black);
+  font-weight: 900;
   text-decoration: none;
+  font-family: 'Fraunces', serif;
+  z-index: 1000;
+}
+
+.features__text--link-border {
+  background-color: hsla(51, 100%, 49%, .4);
+  border-radius: 1rem;
+  position: absolute;
+  height: .6rem;
+  width: 8rem;
+  top: .7rem;
 }
 
 .features__image--egg {
