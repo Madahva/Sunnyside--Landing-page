@@ -4,62 +4,78 @@
 }
 
 .features__text {
-  text-align: center;
-  order: 2;
   background-color: var(--white);
   display: flex;
-  padding: 3rem 2rem;
   flex-direction: column;
+  order: 2;
+  padding: 3rem 2rem;
+  text-align: center;
 }
 
 .features__text h2 {
   color: var(--black);
   font-family: 'Fraunces', serif;
   font-weight: 900;
+  font-size: 2rem;
 }
 
 .features__text p {
   color: var(--gray);
   font-family: 'Barlow', sans-serif;
+  line-height: 2rem;
+  opacity: .8;
 }
 
 .features__text--links {
   align-items: center;
-  position: relative;
   display: flex;
   flex-direction: column;
+  margin: 1rem 0;
+  position: relative;
 }
 
 .features__text a {
   color: var(--black);
+  font-family: 'Fraunces', serif;
   font-weight: 900;
   text-decoration: none;
-  font-family: 'Fraunces', serif;
   z-index: 1000;
 }
 
 .features__text--link-border {
   background-color: hsla(51, 100%, 49%, .4);
   border-radius: 1rem;
-  position: absolute;
   height: .6rem;
-  width: 8rem;
+  position: absolute;
   top: .7rem;
+  width: 8rem;
+}
+
+.pink-border--link {
+  background-color: hsla(7, 99%, 70%, 0.3)
 }
 
 .features__image--egg {
   background-image: url("../images/mobile/image-transform.jpg");
-  background-repeat: no-repeat;
-  height: 20rem;
-  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
   order: 1;
 }
 
 .features__image--cup {
   background-image: url("../images/mobile/image-stand-out.jpg");
-  background-repeat: no-repeat;
-  height: 20rem;
-  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+}
+
+.features__image--frutilla {
+  background-image: url("../images/mobile/image-graphic-design.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
 }
