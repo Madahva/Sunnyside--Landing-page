@@ -87,5 +87,65 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 20rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
+
+.features__image--frutilla__text {
+ display: flex;
+ align-items: center;
+}
+
+.features__image--frutilla__text p {
+  color: var(--dark-desaturated-cyan);
+  font-family: 'Barlow', sans-serif;
+  line-height: 1.7rem;
+  padding: 2rem 2rem 3rem 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.features__image--frutilla__text h3{
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'Fraunces', sans-serif;
+  color: var(--dark-desaturated-cyan);
+}
+
+.features__image--naranja {
+  background-image: url("../images/mobile/image-photography.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+
+.features__image--naranja__text {
+ display: flex;
+ align-items: center;
+ opacity: 0.6;
+}
+
+.features__image--naranja__text p {
+  color: var(--dark-moderate-cyan);
+  font-family: 'Barlow', sans-serif;
+  line-height: 1.7rem;
+  padding: 2rem 2rem 3rem 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.features__image--naranja__text h3{
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'Fraunces', sans-serif;
+  color: var(--dark-moderate-cyan);
+}
+
+

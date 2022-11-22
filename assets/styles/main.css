@@ -2,6 +2,9 @@
   --white: #FEFEFE;
   --black: hsl(212, 27%, 19%);
   --gray: hsl(213, 9%, 39%);
+  --dark-desaturated-cyan: hsl(167, 40%, 24%);
+  --dark-blue: hsl(198, 62%, 26%);
+  --darl-moderate-cyan: hsl(168, 34%, 41%);
 }
 
 body {
