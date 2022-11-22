@@ -1,0 +1,32 @@
+.testimonials {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 4rem 2rem;
+  gap: 4rem;
+}
+
+
+.testimonials h3 {
+  color: var(--gray);
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.3rem;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.testimonials p {
+  color: var(--gray);
+  font-family: "Barlow", sans-serif;
+  font-size: 600;
+}
+
+.testimonials img {
+  border-radius: 50%;
+  width: 5rem;
+}
