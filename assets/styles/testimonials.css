@@ -20,13 +20,29 @@
   opacity: 0.6;
 }
 
-.testimonials p {
+.testimonials__card-para {
   color: var(--gray);
   font-family: "Barlow", sans-serif;
-  font-size: 600;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding: 1.5rem 0;
 }
 
 .testimonials img {
   border-radius: 50%;
   width: 5rem;
+}
+
+.testimonials__card-author {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.testimonials i {
+  color: var(--gray);
+  font-style: normal;
+  font-family: "Barlow", sans-serif;
+  opacity: 0.7;
 }
