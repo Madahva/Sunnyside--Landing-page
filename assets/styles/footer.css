@@ -1,0 +1,45 @@
+footer {
+  align-items: center;
+  background-color: #90D4C5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__image {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__image div {
+  display: flex;
+}
+
+.footer__image img {
+  width: 50%;
+}
+
+.Sunnyside-logo {
+  padding-top: 4rem;
+  width: 13rem;
+}
+
+.footer__nav-links {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+}
+
+.footer__nav-links a {
+  color: #2C7466;
+  font-family: "Barlow";
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer__nav-social {
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 4rem;
+}
