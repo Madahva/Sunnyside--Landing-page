@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="./assets/styles/features.css">
   <link rel="stylesheet" href="./assets/styles/testimonials.css">
   <link rel="stylesheet" href="./assets/styles/footer.css">
-  <script src="./assets/main.js"></script>
+  <script defer src="./assets/main.js"></script>
 
 </head>
 
@@ -31,13 +31,13 @@
       <img src="./assets/images/logo.svg" alt="Sunnyside Logo">
     </div>
 
-    <button class="header__nav--button"><img src="./assets/images/icon-hamburger.svg" alt="Open nav menu"></button>
+    <button id="button" class="header__nav--button"><img src="./assets/images/icon-hamburger.svg" alt="Open nav menu"></button>
 
-    <nav class="header__nav--mobile">
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Projects</a>
-      <button>CONTACT</button>
+    <nav id="nav" class="hidden header__nav--mobile">
+      <a class="link" href="#">About</a>
+      <a class="link" href="#">Services</a>
+      <a class="link" href="#">Projects</a>
+      <button class="link">CONTACT</button>
     </nav>
 
     <nav class="header__nav--desktop">
