@@ -2,13 +2,11 @@
   display: none;
 }
 
-
 .header {
   align-items: center;
   display: flex;
   justify-content: space-between;
   padding: 2rem;
-
 }
 
 .header__nav--button {
@@ -75,4 +73,21 @@
 
 .stop-scroll {
   overflow: hidden; 
+}
+
+@media (min-width: 650px) {
+  .header {
+    padding: 4rem 4rem;
+  }
+
+  .header__logo img {
+    width: 15rem;
+  }
+
+  .header__nav--mobile {
+    top: 10rem;
+    left: 4rem;
+    right: 4rem;
+    padding: 4rem 0;
+  }
 }

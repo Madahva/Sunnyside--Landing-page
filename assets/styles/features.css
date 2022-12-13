@@ -149,3 +149,8 @@
 }
 
 
+@media (min-width: 650px) {
+  .features__image--egg  {
+    height: 34rem;
+  }
+}
